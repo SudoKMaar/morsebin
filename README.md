@@ -57,7 +57,7 @@ The app should now be running at [http://localhost:3000](http://localhost:3000).
 7. To convert the binary back to text, click on the "Swap" button.
 8. Click the "Convert" button again to get the original text back.
 
-![Binary Converter](https://github.com/SudoKMaar/blob/main/images/binary-screenshot.png)
+![Binary Converter](https://github.com/SudoKMaar/morsebin/blob/main/images/binary-scrrenshot.png)
 
 9. Click on the "Morse" button to access the Morse Code Converter.
 10. In the Morse Code Converter, follow the same steps as in the Binary Converter.
@@ -66,7 +66,7 @@ The app should now be running at [http://localhost:3000](http://localhost:3000).
 13. To convert the Morse code back to text, click on the "Swap" button.
 14. Click the "Convert" button again to get the original text back.
 
-![Morse Code Converter](https://github.com/SudoKMaar/blob/main/images/morse-screenshot.png)
+![Morse Code Converter](https://github.com/SudoKMaar/morsebin/blob/main/images/morse-screenshot.png)
 
 15. Use the "Clear" button to clear the input and output areas.
 16. To export the converted text, click on the "Export" button.
