@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.translate {
+  height: 94vh;
+}
+
+.setor {
+  margin: 5px auto;
+  width: 60vw;
+  height: 40vh;
+  background-color: #222;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.setorTxt {
+  background-color: #222;
+  padding: 20px 0;
+  color: #fff;
+  margin: 0 20px;
+  display: inline-block;
+  font-size: 3vw;
+}
+
+.languageType {
+  display: flex;
+  background-color: #c4c4c4;
+  margin-right: 4%;
+  float: right;
+  font-family: "Inconsolata", monospace;
+  padding: 1vh 2vw;
+  color: #242a38;
+  border-radius: 10px;
+  margin-top: 2vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2.5vw;
+}
+
+.setor textarea {
+  padding: 20px 20px;
+  margin: 2vw;
+  width: 56vw;
+  background-color: #333;
+  border-radius: 15px;
+  border: 1px solid;
+  height: 60%;
+  resize: none;
+}
+
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #333;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+button:active {
+  background-color: #777;
+}
+
+.backButton {
+  float: left;
+  margin-left: 1vw;
+  width: 5vw;
+  height: 3vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1vw;
+  color: #fff;
+  background-color: #222;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.backButton:hover {
+  background-color: #555;
+}
+
+.buttons {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+  max-width: 60vw;
+  gap: 5px;
+}
+
+.buttons button {
+  width: 15vw;
+  height: 5vw;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: whitesmoke;
+  font-size: 3vw;
+  cursor: pointer;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #4caf50;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #2196f3;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #f44336;
+}
+
+.buttons button:nth-child(4) {
+  background-color: #6c757d;
+}
+
+.buttons button:hover {
+  background: #c4c4c4;
+  border: 10px solid;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer {
+  font-family: "Inconsolata", monospace;
+  margin: auto;
+  height: 5vh;
+  text-align: center;
+  animation: bodyAnimation 1s infinite alternate;
+}
+
+@media (max-width: 500px) {
+  .setor {
+    width: 80vw;
+  }
+  .setor textarea {
+    width: 76vw;
+  }
+  .buttons {
+    max-width: 80vw;
+  }
+  .backButton {
+    width: 8vw;
+  }
+  .buttons button {
+    width: 20vw;
+  }
+}
